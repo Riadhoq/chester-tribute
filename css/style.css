@@ -1,0 +1,43 @@
+body {
+    margin: 60px;
+    background-color: #333;
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #444;
+}
+
+.container-fluid {
+    padding: 50px;
+    background-color: #eee;
+}
+
+.thumbnail {
+    border-radius: 30%;
+}
+
+.introduction {
+    background-color: #ddd;
+    padding: 15px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: 'Cinzel', serif;
+}
+
+.contribution {
+    background-image: URL("http://www.billboard.com/files/media/05-bw-chester-bennington-performs-2017-billboard-1548.jpg");
+    background-size: 1400px 1024px;
+    color: #aaa;
+    text-shadow: 1px 1px 0 #000;
+}
+
+footer {
+    padding: 20px 10px;
+    margin: 20px;
+    text-align: center;
+}
