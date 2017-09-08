@@ -34,7 +34,16 @@ body {
     background-size: 1400px 1024px;
     color: #aaa;
     text-shadow: 1px 1px 0 #000;
+    background-attachment:fixed;
 }
+
+@media only screen and (max-device-width: 1024px) {
+    .contribution {
+        background-attachment: scroll;
+      background-max-width: 100%;
+  background-height: auto;
+  background-size: cover;
+    }
 
 footer {
     padding: 20px 10px;
